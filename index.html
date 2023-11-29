@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Walaa Zakarnah</title>
+    <link href="../Assignmen2/main.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>new product</h1>
+
+    <form method="get">
+        <label for="prodname">product name:</label>
+        <input type="text" name="proname" id="prodname" />
+
+        <label for="price">product price:</label>
+        <input  type="number" name="proprice" id="price" min="0"/>
+
+        <label for="quantity">product quantity:</label>
+        <input  type="number" name="proquantity" id="quantity" min="0"/>
+
+        <label for="url">product image URL:</label>
+        <input  type="url" name="prourl" id="url"/>
+        <label>product category:</label>
+        <select name="pros">
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Home">Home</option>
+            <option value="Toys">Toys</option>
+            <option value="Other">Other</option>
+        </select>
+        <input type="submit"/>
+    </form>
+</body>
+</html>

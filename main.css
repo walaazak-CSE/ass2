@@ -1,0 +1,13 @@
+
+form{
+    margin: auto;
+    background-color: blanchedalmond;
+    width:50%;
+
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+input, label,select{
+    width:100%;
+}
